@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Earthquake"
+    tools:ignore="ExtraText"
+    android:background="@drawable/b3">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:layout_margin="10sp"
+        android:backgroundTint="#00838f">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="SANDSTORM"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold">
+        </TextView>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="262dp"
+        android:background="@drawable/sand" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                app:cardElevation="8dp"
+                app:cardCornerRadius="20dp"
+                android:backgroundTint="#E0F2F1">
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="DO'S:"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:textStyle="bold">
+
+                    </TextView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="\n 1.1.	Stay Informed: Monitor weather forecasts and stay aware of sandstorm warnings in your area.\n\n 2.2.	Create a Safe Space: If you're indoors, close all doors and windows to prevent the entry of blowing sand. Use weather-stripping to seal gaps.\n\n 3.3.	Use Air Purifiers: Consider using air purifiers to improve indoor air quality during a sandstorm.\n\n 4.4.	Cover Your Face: If you must go outside during a sandstorm, wear a mask, scarf, or a piece of cloth to cover your nose and mouth to prevent inhaling dust.\n\n 5.5.	Protect Your Eyes: Wear goggles or wrap-around sunglasses to shield your eyes from blowing sand and dust.\n\n 6.6.	Dress Appropriately: Wear long-sleeved clothing, pants, and a wide-brimmed hat to protect your skin from sand and sun.\n\n 7.7.	Stay Hydrated: Drink plenty of water to prevent dehydration, as sandstorms can be very dry.\n\n 8.8.	Drive Safely: If you're driving, reduce your speed, turn on your headlights, and be cautious of reduced visibility. Pull over to a safe location if visibility becomes extremely poor."
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        >
+
+                    </TextView>
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                app:cardElevation="8dp"
+                app:cardCornerRadius="20dp"
+                android:backgroundTint="#E0F2F1">
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="DON'T:"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:textStyle="bold">
+
+                    </TextView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:textColor="@color/black"
+                        android:text="\n 1.	Don't Go Outside Unnecessarily: Avoid going outdoors during a sandstorm unless it's absolutely essential.\n\n 2.Don't Drive Unless Necessary: If you can avoid driving during a sandstorm, do so. Reduced visibility and slippery roads can lead to accidents.\n\n 3.Don't Leave Doors or Windows Open: Keep all doors and windows closed to prevent sand from entering your home or workplace.\n\n 4.Don't Touch Your Eyes: Avoid touching your eyes or rubbing them with dirty hands during a sandstorm, as this can cause irritation and infection.\n\n 5.Don't Use Ventilation Systems: Do not use exhaust fans or air conditioning systems that may draw sand and dust into your home or building.\n\n 6.Don't Expose Skin: Keep your skin covered to minimize contact with blowing sand, which can be abrasive and irritating.\n\n 7.Don't Panic: Sandstorms can be unsettling, but it's important to remain calm and follow safety precautions.\n\n 8.Don't Ignore Health Symptoms: If you experience respiratory distress or any health issues related to the sandstorm, seek medical attention promptly."
+                        android:textSize="15dp"
+                        >
+
+                    </TextView>
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</LinearLayout>

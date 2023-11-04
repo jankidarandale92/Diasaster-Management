@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "74261874897",
+    "project_id": "disaster-management-9fb1d",
+    "storage_bucket": "disaster-management-9fb1d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:74261874897:android:af691b886c8ddab3c55df0",
+        "android_client_info": {
+          "package_name": "com.example.disastermanagement"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD79NrH3hGaEVabDv3tpWwHMcuK-vs-hFo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

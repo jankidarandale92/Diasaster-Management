@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Earthquake"
+    tools:ignore="ExtraText"
+    android:background="@drawable/b3">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:layout_margin="10sp"
+        android:backgroundTint="#00838f">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="SNOWSTORM"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold">
+        </TextView>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="262dp"
+        android:background="@drawable/snow" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                app:cardElevation="8dp"
+                app:cardCornerRadius="20dp"
+                android:backgroundTint="#E0F2F1">
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="DO'S:"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:textStyle="bold">
+
+                    </TextView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="\n 1.Stay Informed:
+
+Monitor weather forecasts from reliable sources to stay updated on the storm's progress.\n\n 2.Prepare Your Home:
+
+Stock up on essential supplies like food, water, batteries, flashlights, and a first-aid kit.
+Make sure your heating system and home insulation are in good working condition.
+Insulate pipes to prevent freezing.\n\n 3.Create an Emergency Kit:
+
+Have an emergency kit with items like warm clothing, blankets, non-perishable food, a battery-operated radio, and a charged power bank.\n\n 4.Stay Inside:
+
+If possible, stay indoors during the storm to avoid hazardous driving conditions.
+If you need to go out, let someone know your destination and expected return time.\n\n 5.Dress Warmly:
+
+Wear multiple layers of warm clothing, a hat, gloves, and waterproof boots.
+Avoid exposing skin to extreme cold, as it can lead to frostbite.\n\n 6.Clear Snow Safely:
+
+Shovel snow from walkways and driveways to prevent accidents, but do so in a safe and controlled manner.
+Use proper lifting techniques to avoid straining your back.\n\n 7.Stay in Communication:
+
+Keep your cell phone charged and have a backup power source available.
+Check in with neighbors, especially the elderly or those with special needs.\n\n 8.Know How to Identify and Treat Cold-Related Illnesses:
+
+Learn the signs of hypothermia and frostbite and know how to provide first aid."
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        >
+
+                    </TextView>
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                app:cardElevation="8dp"
+                app:cardCornerRadius="20dp"
+                android:backgroundTint="#E0F2F1">
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="DON'T:"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:textStyle="bold">
+
+                    </TextView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:textColor="@color/black"
+                        android:text="\n 1.Don't Travel Unnecessarily:
+
+Avoid driving in a snowstorm unless it's an absolute emergency. If you must drive, let someone know your route and estimated arrival time.\n\n 2.Don't Overexert Yourself:
+
+Shoveling snow can be physically demanding. Take frequent breaks and avoid overexertion.\n\n 3.Don't Use Improper Heating Methods:
+
+Never use a gas stove, oven, or other non-approved heating methods for warmth. They can cause carbon monoxide poisoning.\n\n 4.Don't Neglect Your Car:
+
+Keep your vehicle in good working order, including proper tires, antifreeze, and a full gas tank.
+Always carry an emergency kit in your car with essentials like a blanket, snacks, and a flashlight.\n\n 5.Don't Ignore Safety Guidelines:
+
+Follow local authorities' instructions and road closures.
+Respect any travel bans or restrictions in your area.\n\n 6.Don't Panic:
+
+Staying calm is essential during a snowstorm. Panic can cloud judgment and lead to poor decisions.\n\n 7.Don't Assume Help Will Arrive Immediately:
+
+Emergency services may be overwhelmed during a snowstorm. Be prepared to be self-sufficient for an extended period.\n\n 8.Don't ignore signs of frostbite or hypothermia: If you or someone you're with shows signs of frostbite (such as numbness, pale skin, or blistering) or hypothermia (shivering, confusion, slurred speech), do not ignore these symptoms."
+                        android:textSize="15dp"
+                        >
+
+                    </TextView>
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Earthquake"
+    tools:ignore="ExtraText"
+    android:background="@drawable/b3">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:layout_margin="10sp"
+        android:backgroundTint="#00838f">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="FLOOD"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold">
+        </TextView>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="262dp"
+        android:background="@drawable/flood" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                app:cardElevation="8dp"
+                app:cardCornerRadius="20dp"
+                android:backgroundTint="#E0F2F1">
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="DO'S:"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:textStyle="bold">
+
+                    </TextView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="\n 1.Stay Informed: Keep track of weather forecasts and flood warnings from local authorities. Use weather apps, radios, or other reliable sources for updates.\n\n 2.Create an Emergency Kit: Prepare an emergency kit with essentials like non-perishable food, water, flashlights, batteries, a first-aid kit, important documents, and medications.\n\n 3.Elevate Valuables: Store important documents, family heirlooms, and valuables in waterproof containers and, if possible, in higher areas of your home.\n\n 4.Know Evacuation Routes: Familiarize yourself with evacuation routes in your area and be ready to evacuate if local authorities issue evacuation orders.\n\n 5.Disconnect Utilities: Turn off electricity, gas, and water supplies if authorities recommend or before evacuating to reduce the risk of electrical shock or gas leaks.\n\n 6.Stay on High Ground: During a flood, stay on higher ground or upper floors of your home to avoid rising floodwaters.\n\n 7.Keep Emergency Contacts: Have a list of emergency contacts, including family, friends, and local emergency services, readily available.\n\n 8.Use a NOAA Weather Radio: A NOAA Weather Radio can provide continuous broadcasts of weather information, including alerts and warnings."
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        >
+
+                    </TextView>
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                app:cardElevation="8dp"
+                app:cardCornerRadius="20dp"
+                android:backgroundTint="#E0F2F1">
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="DON'T:"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:textStyle="bold">
+
+                    </TextView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:textColor="@color/black"
+                        android:text="\n 1.Don't Drive Through Floodwaters: Never attempt to drive through flooded roads or areas. Turn around and find an alternative route.\n\n 2.Don't Stay in Low-Lying Areas: Avoid staying in basements or low-lying areas during a flood. Move to higher ground.\n\n 3.Don't Walk or Swim in Floodwaters: Floodwaters can be contaminated and hide hazards like submerged objects or strong currents. Do not walk or swim in them.\n\n 4.Don't Ignore Warnings: Take flood warnings and alerts seriously. Ignoring them can put your life and the lives of first responders at risk.\n\n 5.Don't Assume Water Depth: Do not underestimate the depth of floodwaters, as even a few inches of moving water can knock you off your feet.\n\n 6.Don't Use Electrical Appliances: Avoid using electrical appliances or touching electrical outlets when you are in contact with water or standing on wet surfaces.\n\n 7.Don't Neglect Pet Safety: Ensure the safety of your pets. Do not leave them behind during a flood. Have provisions for them in your emergency kit.\n\n 8.Don't Panic: While floods can be frightening, try to remain calm. Panic can make the situation more dangerous. Follow safety procedures and guidelines."
+                        android:textSize="15dp"
+                        >
+
+                    </TextView>
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</LinearLayout>

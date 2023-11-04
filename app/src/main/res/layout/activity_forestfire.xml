@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Earthquake"
+    tools:ignore="ExtraText"
+    android:background="@drawable/b3">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:layout_margin="10sp"
+        android:backgroundTint="#00838f">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="FOREST FIRE"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold">
+        </TextView>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="262dp"
+        android:background="@drawable/forest" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                app:cardElevation="8dp"
+                app:cardCornerRadius="20dp"
+                android:backgroundTint="#E0F2F1">
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="DO'S:"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:textStyle="bold">
+
+                    </TextView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="\n 1.Follow local regulations: Always adhere to local laws and regulations regarding outdoor fires, burning, and camping. Pay attention to fire bans and restrictions.\n\n 2.Create defensible space: If you live in a fire-prone area, create a defensible space around your property by removing dead vegetation, trimming trees, and keeping flammable materials away from your hom.\n\n 3.Keep a safe distance: Maintain a safe distance from active fires, and follow the instructions of local authorities and firefighters.\n\n 4.Extinguish campfires completely: If you're camping or having a campfire, ensure it's fully extinguished before leaving the area. Use water and stir the ashes until they are cold to the touch.\n\n 5.Properly dispose of cigarette butts: Never throw cigarette butts out of a vehicle or on the ground. Use a designated receptacle or an ashtray in your car.\n\n 6.Equip your home with fire-resistant materials: If building or renovating a home in a fire-prone area, use fire-resistant building materials and install fire-resistant roofing.\n\n 7.Create a firebreak: In fire-prone regions, create firebreaks or cleared areas between the forest and your property to prevent fires from spreading.\n\n 8.Use spark arresters: Equip chimneys and stovepipes with spark arresters to prevent sparks from escaping and igniting nearby vegetation."
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        >
+
+                    </TextView>
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                app:cardElevation="8dp"
+                app:cardCornerRadius="20dp"
+                android:backgroundTint="#E0F2F1">
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="DON'T:"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:textStyle="bold">
+
+                    </TextView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:textColor="@color/black"
+                        android:text="\n 1.Don't discard cigarette butts or matches: Never throw cigarette butts, matches, or any flaming materials on the ground, especially in dry and windy conditions.\n\n 2.Don't burn trash or debris without a permit: Avoid burning leaves, branches, or trash without obtaining the necessary permits and adhering to local regulations.\n\n 3.Don't leave campfires unattended: Never leave a campfire or cooking fire unattended, even for a short period. Make sure it is fully extinguished before leaving.\n\n 4.Don't use equipment that can cause sparks: Be cautious when operating equipment like chainsaws, lawnmowers, and welding equipment, as sparks can ignite dry vegetation.\n\n 5.Don't park on dry grass: When parking your vehicle, avoid parking in tall, dry grass, as the heat from the exhaust system can start a fire.\n\n 6.Don't start open fires during windy conditions: High winds can quickly spread flames. Avoid starting open fires on windy days.\n\n 7.Don't ignore fire restrictions: If local authorities have imposed fire restrictions or bans, respect them and refrain from open burning.\n\n 8.Don't delay reporting fires: If you see a forest fire or smoke in a forested area, do not hesitate to report it to emergency services immediately."
+                        android:textSize="15dp"
+                        >
+
+                    </TextView>
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</LinearLayout>

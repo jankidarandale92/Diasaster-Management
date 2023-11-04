@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Earthquake"
+    tools:ignore="ExtraText"
+    android:background="@drawable/b3">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:layout_margin="10sp"
+        android:backgroundTint="#00838f">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="VOLCANIC ERUPTION"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold">
+        </TextView>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="262dp"
+        android:background="@drawable/volcano" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                app:cardElevation="8dp"
+                app:cardCornerRadius="20dp"
+                android:backgroundTint="#E0F2F1">
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="DO'S:"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:textStyle="bold">
+
+                    </TextView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="\n 1.Stay informed: Monitor volcanic activity through local authorities and geological agencies. Pay attention to any alerts, warnings, or evacuation orders.\n\n 2.Have an emergency plan: Develop a family emergency plan that includes evacuation routes, a designated meeting place, and communication methods in case of a volcanic eruption.\n\n 3.Create an emergency kit: Assemble an emergency kit that includes essential items like non-perishable food, water, first-aid supplies, flashlights, batteries, protective clothing, and important documents. Ensure you have enough supplies for several days.\n\n 4.Obey evacuation orders: If authorities issue evacuation orders, follow them promptly and evacuate to a designated safe location.\n\n 5.Stay indoors during ashfall: If you are in an area affected by volcanic ashfall, stay indoors to avoid breathing in ash particles. Keep doors and windows closed.\n\n 6.Wear protective gear: If you must be outside during ashfall, use protective gear like goggles, dust masks, long-sleeved clothing, and gloves to shield yourself from ash and prevent respiratory issues.\n\n 7.Keep vehicles covered: If you have a vehicle, cover it with a tarp or car cover to protect it from volcanic ash, which can damage the engine and paint.\n\n 8.Maintain situational awareness: Be aware of your surroundings and stay informed about volcanic activity to make informed decisions about your safety."
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        >
+
+                    </TextView>
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                app:cardElevation="8dp"
+                app:cardCornerRadius="20dp"
+                android:backgroundTint="#E0F2F1">
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="DON'T:"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:textStyle="bold">
+
+                    </TextView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:textColor="@color/black"
+                        android:text="\n 1.Don't approach the volcano: Do not approach an active volcano or lava flow. Volcanic eruptions can be unpredictable, and lava is extremely dangerous.\n\n 2.Don't ignore warnings: Take volcano alerts and warnings seriously. Ignoring them can put your life and the lives of others at risk.\n\n 3.Don't underestimate ashfall: Volcanic ashfall can be heavy and cause structural damage, so don't underestimate its potential impact.\n\n 4.Don't drive through ashfall: Driving in heavy ashfall can be hazardous and may damage your vehicle. Stay off the road if possible and wait for conditions to improve.\n\n 5.Don't use contaminated water: Volcanic eruptions can contaminate water sources. Do not use water that may have been exposed to ash, as it can be harmful if ingested.\n\n 6.Don't return home prematurely: After an evacuation, do not return to your home or community until authorities confirm that it is safe to do so.\n\n 7.Don't rely solely on social media: While social media can provide updates, verify information from official sources to ensure it is accurate and reliable.\n\n 8.Don't panic: Stay calm and follow your emergency plan and the guidance of local authorities. Panic can lead to poor decision-making."
+                        android:textSize="15dp"
+                        >
+
+                    </TextView>
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</LinearLayout>

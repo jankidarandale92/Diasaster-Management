@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Earthquake"
+    tools:ignore="ExtraText"
+    android:background="@drawable/b3">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:layout_margin="10sp"
+        android:backgroundTint="#00838f">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="CHEMICAL HAZARDS"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold">
+        </TextView>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="262dp"
+        android:background="@drawable/chemical" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                app:cardElevation="8dp"
+                app:cardCornerRadius="20dp"
+                android:backgroundTint="#E0F2F1">
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="DO'S:"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:textStyle="bold">
+
+                    </TextView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="\n 1.Understand the Chemicals: Familiarize yourself with the chemicals you are working with. Know their properties, potential hazards, and safe handling procedures by reading Material Safety Data Sheets (MSDS) or Safety Data Sheets (SDS).\n\n 2.Use Personal Protective Equipment (PPE): Always wear the appropriate PPE, which may include gloves, lab coats, safety goggles, respirators, and other protective gear, depending on the chemicals and tasks involved.\n\n 3.Work in a Well-Ventilated Area: Perform chemical tasks in a fume hood or a well-ventilated area to minimize exposure to harmful fumes or gases.\n\n 4.Label Chemical Containers: Properly label all chemical containers with the substance's name, hazard symbols, and the date it was opened. This helps prevent accidental exposure or mix-ups.\n\n 5.Follow Safety Protocols: Adhere to safety protocols and procedures specific to your workplace or laboratory, and always follow instructions provided on chemical labels or in the MSDS/SDS.\n\n 6.Store Chemicals Properly: Store chemicals in designated areas, away from incompatible substances, and follow storage guidelines, including temperature and humidity requirements.\n\n 7.Handle Chemicals Carefully: Pour and mix chemicals with care, ensuring that you use the appropriate tools and techniques to prevent spills or accidents.\n\n 8.Emergency Response: Know the location of safety equipment like eyewash stations, safety showers, fire extinguishers, and emergency exits. Familiarize yourself with emergency response procedures."
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        >
+
+                    </TextView>
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                app:cardElevation="8dp"
+                app:cardCornerRadius="20dp"
+                android:backgroundTint="#E0F2F1">
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="DON'T:"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:textStyle="bold">
+
+                    </TextView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:textColor="@color/black"
+                        android:text="\n 1.Don't Eat, Drink, or Smoke: Avoid consuming food, drinks, or smoking in areas where you handle chemicals. Contamination can occur through inadvertent contact.\n\n 2.Don't Work Alone: Avoid working with hazardous chemicals alone, especially in a laboratory or industrial setting. In case of an emergency, having a colleague present can be crucial.\n\n 3.Don't Pipette by Mouth: Never use your mouth to pipette or siphon chemicals. Use appropriate laboratory equipment to transfer substances.\n\n 4.Don't Ignore Warning Signs: Take warning labels and hazard symbols seriously. Ignoring them can lead to accidents and exposure.\n\n 5.Don't Store Chemicals Improperly: Avoid storing chemicals near heat sources, direct sunlight, or in areas with temperature or humidity extremes. Improper storage can lead to chemical degradation and hazards.\n\n 6.Don't Mix Incompatible Chemicals: Do not mix chemicals unless you are certain they are compatible. Incompatible combinations can lead to hazardous reactions.\n\n 7.Don't Wear Inadequate PPE: Do not compromise on personal protective equipment. Always wear the appropriate gear for the specific chemical hazards you are working with.\n\n 8.Don't Rush: Avoid rushing through tasks involving hazardous chemicals. Take your time and follow procedures diligently."
+                        android:textSize="15dp"
+                        >
+
+                    </TextView>
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</LinearLayout>

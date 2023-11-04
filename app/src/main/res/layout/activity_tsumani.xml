@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context=".Earthquake"
+tools:ignore="ExtraText"
+android:background="@drawable/b3">
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10sp"
+    android:layout_marginLeft="10sp"
+    android:layout_marginRight="10sp"
+    android:layout_margin="10sp"
+    android:backgroundTint="#00838f">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="TSUNAMI"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold">
+    </TextView>
+
+</androidx.cardview.widget.CardView>
+
+
+<ImageView
+    android:id="@+id/img"
+    android:layout_width="match_parent"
+    android:layout_height="262dp"
+    android:background="@drawable/tsunami" />
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            app:cardElevation="8dp"
+            app:cardCornerRadius="20dp"
+            android:backgroundTint="#E0F2F1">
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="DO'S:"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:textStyle="bold">
+
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+                    android:text="\n 1.Pay Attention to Warning Systems: Stay informed about tsunami warnings and alerts through official channels, such as local government alerts, radio, TV, and weather apps.\n\n 2.Evacuate if Advised: If authorities issue a tsunami warning or evacuation order, follow their instructions promptly. Do not delay. Head to higher ground or move inland immediately.\n\n 3.Have a Family Emergency Plan: Create a family emergency plan that includes evacuation routes, meeting points, and a list of emergency contacts.\n\n 4.Gather Supplies: Have an emergency kit with essential supplies, including food, water, first-aid supplies, and any necessary medications.\n\n 5.Move to Higher Ground: If you're near the coast and feel strong shaking that lasts for 20 seconds or more, or if you see the ocean receding unusually, move to higher ground without waiting for official warnings.\n\n 6.Stay Informed: Keep monitoring official information sources for updates and instructions on when it's safe to return to affected areas."
+                    android:textSize="15dp"
+                    >
+
+                </TextView>
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            app:cardElevation="8dp"
+            app:cardCornerRadius="20dp"
+            android:backgroundTint="#E0F2F1">
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="DON'T:"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:textStyle="bold">
+
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+                    android:text="\n 1.Don't Wait for Confirmation: If you feel a strong and prolonged earthquake, see the ocean receding rapidly, or receive an official tsunami warning, don't wait for further confirmation. Move to higher ground immediately.\n\n 2.Don't Go to the Coast to Watch: Never go to the coast to watch the tsunami. Tsunamis can cause surges of water that are extremely dangerous and unpredictable.\n\n 3.Don't Ignore Warnings: Take all tsunami warnings and alerts seriously. Ignoring these warnings can put your life at risk.\n\n 4.Don't Use Elevators: Avoid using elevators to evacuate buildings during a tsunami warning, as power may fail.\n\n 5.Don't Return Too Soon: Once you've evacuated to higher ground, do not return to coastal areas until authorities have declared them safe. Tsunami waves can come in multiple surges.\n\n 6.Don't Rely on Sirens Alone: While sirens are a part of tsunami warning systems, they might not always be audible, and you should not rely on them as the sole source of information."
+                    android:textSize="15dp"
+                    >
+
+                </TextView>
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</ScrollView>
+
+
+
+
+</LinearLayout>

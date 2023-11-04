@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/dhome"
+        android:title="Home"
+        android:icon="@drawable/baseline_home_24"/>
+    <item
+        android:id="@+id/dlocation"
+        android:title="Location"
+        android:icon="@drawable/baseline_location_on_24"/>
+
+    <item
+        android:id="@+id/dalert"
+        android:title="Alert"
+        android:icon="@drawable/baseline_crisis_alert_24"/>
+    <item
+        android:id="@+id/dshare"
+        android:title="Share App"
+        android:icon="@drawable/baseline_share_24"/>
+    <item
+        android:id="@+id/daboutUs"
+        android:title="About Us"
+        android:icon="@drawable/baseline_note_24"/>
+</menu>
