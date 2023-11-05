@@ -4,6 +4,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
+import com.example.disastermanagement.databinding.ActivityBombBinding;
+
 public class Bomb extends AppCompatActivity {
 
     @Override

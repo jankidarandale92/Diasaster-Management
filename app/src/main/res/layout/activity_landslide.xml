@@ -23,7 +23,7 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:layout_marginTop="10dp"
-            android:text="FLOOD"
+            android:text="LANDSLIDE"
             android:textAlignment="center"
             android:textColor="@color/black"
             android:textSize="20dp"
@@ -32,12 +32,34 @@
 
     </androidx.cardview.widget.CardView>
 
-
+    <ViewFlipper
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:autoStart="true"
+        android:flipInterval="1500"
+        android:inAnimation="@android:anim/slide_in_left">
     <ImageView
-        android:id="@+id/img"
+        android:id="@+id/img1"
         android:layout_width="match_parent"
         android:layout_height="262dp"
-        android:background="@drawable/flood" />
+        android:background="@drawable/land" />
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="match_parent"
+            android:layout_height="262dp"
+            android:background="@drawable/land1" />
+        <ImageView
+            android:id="@+id/img3"
+            android:layout_width="match_parent"
+            android:layout_height="262dp"
+            android:background="@drawable/land2" />
+        <ImageView
+            android:id="@+id/img4"
+            android:layout_width="match_parent"
+            android:layout_height="262dp"
+            android:background="@drawable/land3" />
+    </ViewFlipper>
+
 
     <ScrollView
         android:layout_width="match_parent"
@@ -69,14 +91,14 @@
                         android:text="DO'S:"
                         android:textColor="@color/black"
                         android:textSize="15dp"
-                        android:textStyle="bold">
+                        >
 
                     </TextView>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="10dp"
-                        android:text="\n 1.Stay Informed: Keep track of weather forecasts and flood warnings from local authorities. Use weather apps, radios, or other reliable sources for updates.\n\n 2.Create an Emergency Kit: Prepare an emergency kit with essentials like non-perishable food, water, flashlights, batteries, a first-aid kit, important documents, and medications.\n\n 3.Elevate Valuables: Store important documents, family heirlooms, and valuables in waterproof containers and, if possible, in higher areas of your home.\n\n 4.Know Evacuation Routes: Familiarize yourself with evacuation routes in your area and be ready to evacuate if local authorities issue evacuation orders.\n\n 5.Disconnect Utilities: Turn off electricity, gas, and water supplies if authorities recommend or before evacuating to reduce the risk of electrical shock or gas leaks.\n\n 6.Stay on High Ground: During a flood, stay on higher ground or upper floors of your home to avoid rising floodwaters.\n\n 7.Keep Emergency Contacts: Have a list of emergency contacts, including family, friends, and local emergency services, readily available.\n\n 8.Use a NOAA Weather Radio: A NOAA Weather Radio can provide continuous broadcasts of weather information, including alerts and warnings."
+                        android:text="\n 1.Monitor the weather: Pay attention to weather forecasts and warnings. Heavy rainfall, snowmelt, or seismic activity can increase the risk of landslides.\n\n 2.Stay informed: Keep informed about local landslide hazards, especially if you live in an area prone to landslides. Government agencies often provide information and updates.\n\n 3.Be alert to signs of a landslide: Watch for signs such as rapidly moving water, unusual sounds, and the sudden appearance of cracks in the ground, changes in water flow, or tilting trees or utility poles.\n\n 4.Prepare an emergency kit: Assemble a disaster preparedness kit that includes essential items like food, water, first-aid supplies, flashlights, batteries, and important documents.\n\n 5.Create a family emergency plan: Develop a plan that outlines what your family should do in the event of a landslide. Include evacuation routes, meeting points, and communication procedures.\n\n 6.Elevate utilities: Elevate the electrical panel, furnace, water heater, and other essential utilities in your home to minimize damage in the event of a landslide.\n\n 7.Secure outdoor objects: Remove or secure any outdoor objects, such as loose rocks, debris, or landscaping materials that could become hazardous during a landslide.\n\n 8.Consult a geologist: If you're in an area prone to landslides, consult with a geologist or engineer to assess the risk and discuss potential mitigation measures for your property."
                         android:textColor="@color/black"
                         android:textSize="15dp"
                         >
@@ -117,7 +139,7 @@
                         android:layout_height="wrap_content"
                         android:padding="10dp"
                         android:textColor="@color/black"
-                        android:text="\n 1.Don't Drive Through Floodwaters: Never attempt to drive through flooded roads or areas. Turn around and find an alternative route.\n\n 2.Don't Stay in Low-Lying Areas: Avoid staying in basements or low-lying areas during a flood. Move to higher ground.\n\n 3.Don't Walk or Swim in Floodwaters: Floodwaters can be contaminated and hide hazards like submerged objects or strong currents. Do not walk or swim in them.\n\n 4.Don't Ignore Warnings: Take flood warnings and alerts seriously. Ignoring them can put your life and the lives of first responders at risk.\n\n 5.Don't Assume Water Depth: Do not underestimate the depth of floodwaters, as even a few inches of moving water can knock you off your feet.\n\n 6.Don't Use Electrical Appliances: Avoid using electrical appliances or touching electrical outlets when you are in contact with water or standing on wet surfaces.\n\n 7.Don't Neglect Pet Safety: Ensure the safety of your pets. Do not leave them behind during a flood. Have provisions for them in your emergency kit.\n\n 8.Don't Panic: While floods can be frightening, try to remain calm. Panic can make the situation more dangerous. Follow safety procedures and guidelines."
+                        android:text="\n 1.Don't ignore signs of a landslide: If you observe signs like ground movement or strange sounds, don't ignore them. Take them seriously and be prepared to take action.\n\n 2.Don't build in landslide-prone areas: Avoid building or buying property in areas with a history of landslides unless you've taken appropriate engineering and mitigation measures.\n\n 3.Don't park or build near steep slopes: Avoid parking your vehicle, constructing buildings, or placing heavy objects near the edge of steep slopes, as this can increase the risk of landslides.\n\n 4.Don't wait to evacuate: If you receive an evacuation order or notice of a landslide risk, don't delay. Evacuate immediately to a safe location.\n\n 5.Don't drive through landslide-prone areas: During heavy rainfall or immediately after, avoid driving through areas prone to landslides. The ground can be unstable, and you risk being caught in a slide.\n\n 6.Don't disregard official warnings: If local authorities issue landslide warnings, heed their advice and follow evacuation orders. Their information is based on expert analysis.\n\n 7.Don't assume it's over: After a landslide, be cautious. More slides can follow in the same area, so remain vigilant and follow safety guidelines.\n\n 8.Don't try to stop a landslide: It's not advisable to attempt to stop a landslide yourself. This can be dangerous and may not be effective. Leave mitigation to experts."
                         android:textSize="15dp"
                         >
 

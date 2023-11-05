@@ -30,9 +30,6 @@
             android:name=".SOS"
             android:exported="false" />
         <activity
-            android:name=".Share"
-            android:exported="false" />
-        <activity
             android:name=".Location"
             android:exported="false" />
         <activity

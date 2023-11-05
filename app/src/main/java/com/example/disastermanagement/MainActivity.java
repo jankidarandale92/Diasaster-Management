@@ -5,7 +5,6 @@ import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
-import androidx.cardview.widget.CardView;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.fragment.app.Fragment;
@@ -14,21 +13,11 @@ import androidx.fragment.app.FragmentTransaction;
 
 import android.content.DialogInterface;
 import android.content.Intent;
-import android.os.Build;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
 
-import com.example.disastermanagement.Aboutus;
-import com.example.disastermanagement.Alert;
-import com.example.disastermanagement.D_Articles;
-import com.example.disastermanagement.EmergencyCall;
-import com.example.disastermanagement.Helpline;
-import com.example.disastermanagement.Location;
-import com.example.disastermanagement.R;
-import com.example.disastermanagement.SOS;
-import com.example.disastermanagement.Share;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationView;
 
@@ -110,8 +99,13 @@ public class MainActivity extends AppCompatActivity  {
 
 
                 } else if (id==R.id.dshare) {
-                    Intent intent10=new Intent(MainActivity.this, Share.class);
-                    startActivity(intent10);
+                    Intent intent=new Intent(Intent.ACTION_SEND);
+                    String Body="Download this app";
+                    String Sub="Application link here";
+                    intent.setType("text/plain");
+                    intent.putExtra(Intent.EXTRA_TEXT,Body);
+                    intent.putExtra(Intent.EXTRA_TEXT,Sub);
+                    startActivity(Intent.createChooser(intent,"share via"));
                 }
                 else if (id==R.id.daboutUs) {
                     Intent intent10=new Intent(MainActivity.this, Aboutus.class);
