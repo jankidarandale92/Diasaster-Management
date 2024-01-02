@@ -9,6 +9,7 @@
         android:required="false" />
 
     <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
         android:allowBackup="true"
@@ -20,6 +21,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DisasterManagement"
         tools:targetApi="31">
+        <activity
+            android:name=".WeatherAppActivity"
+            android:exported="false" />
         <activity
             android:name=".Alert"
             android:exported="false" />

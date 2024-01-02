@@ -4,12 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SafetyTipActivity">
+    tools:context=".SafetyTipActivity"
+    android:background="@drawable/b3">
 
     <com.google.android.material.appbar.MaterialToolbar
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="?attr/colorPrimary"
+        android:background="#00838F"
         app:titleTextColor="?attr/colorSurface"
         android:id="@+id/safety_toolbar"/>
 

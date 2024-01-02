@@ -1,12 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="80sp"
+    android:layout_height="100dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:padding="10sp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="110sp"
+        android:backgroundTint="#E0F2F1"
+        app:cardElevation="8dp"
+        app:cardCornerRadius="30dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100sp"
+            android:orientation="horizontal">
 
     <ImageView
         android:layout_width="80sp"
-        android:layout_height="60sp"
+        android:layout_height="85sp"
+        android:padding="10dp"
         android:layout_centerVertical="true"
         android:id="@+id/list_item_image"
         android:scaleType="centerCrop"/>
@@ -14,10 +27,15 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="16sp"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:paddingTop="15dp"
         android:layout_toEndOf="@+id/list_item_image"
         android:id="@+id/list_item_tittle"
         android:layout_marginStart="10sp"
-        android:maxLines="2"/>
+        android:maxLines="3"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
 
 </RelativeLayout>

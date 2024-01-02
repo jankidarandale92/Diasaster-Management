@@ -22,6 +22,7 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationView;
 
 public class MainActivity extends AppCompatActivity  {
+    //91d45e5d267f6305064d0fe8d2fbc06b
     DrawerLayout drawerLayout;
     NavigationView navigationView;
     Toolbar toolbar;
@@ -123,7 +124,7 @@ public class MainActivity extends AppCompatActivity  {
         t1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent Dash2 = new Intent(MainActivity.this, D_Articles.class);
+                Intent Dash2 = new Intent(MainActivity.this, WeatherAppActivity.class);
                 startActivity(Dash2);
             }
         });
