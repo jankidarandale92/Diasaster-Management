@@ -197,6 +197,7 @@
                         android:src="@drawable/baseline_phone_24" />
                     <TextView
                         android:id="@+id/t5"
+
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Emergency Contacts"
@@ -247,16 +248,43 @@
 
 
     </ScrollView>
-
-    <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/bottom_nav_view"
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:backgroundTint="#E0F2F1"
-        app:menu="@menu/bottom_nav_item"
-        app:labelVisibilityMode="labeled"
+        android:layout_height="match_parent">
+        <com.google.android.material.bottomappbar.BottomAppBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bottom_appbar"
+            android:layout_gravity="bottom"
+            android:backgroundTint="#E0F2F1"
+            app:fabCradleMargin="10dp"
+            app:fabCradleRoundedCornerRadius="50dp">
 
-        />
+            <com.google.android.material.bottomnavigation.BottomNavigationView
+                android:id="@+id/bottom_nav_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                app:menu="@menu/bottom_nav_item"
+                app:labelVisibilityMode="labeled"
+                android:layout_marginEnd="20dp"
+                android:backgroundTint="#E0F2F1"
+
+                />
+        </com.google.android.material.bottomappbar.BottomAppBar>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#00838F"
+            android:src="@drawable/baseline_attach_money_24"
+            app:layout_anchor="@id/bottom_appbar"
+            android:maxWidth="40dp"
+            android:tint="@color/white"
+
+            android:contentDescription="Donation" />
+
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
 
 </RelativeLayout>

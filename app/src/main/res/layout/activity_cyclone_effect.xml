@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b3"
+    tools:context=".Cyclone_effect">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:layout_margin="10sp"
+            android:backgroundTint="#00838f">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="Cyclone"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="20dp"
+                android:textStyle="bold">
+            </TextView>
+
+        </androidx.cardview.widget.CardView>
+        <TextView
+            android:id="@+id/t1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:padding="10dp"
+            android:background="#E0F2F1"
+            android:text="Effects "
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+
+            android:id="@+id/t2"
+            android:layout_below="@+id/t1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:background="#E0F2F1"
+            android:text="1. Strong Winds :"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            >
+
+        </TextView>
+        <TextView
+
+            android:id="@+id/t3"
+            android:layout_below="@+id/t2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:background="#E0F2F1"
+            android:text="Cyclones are known for their powerful winds, which can reach extremely high speeds. These winds can cause significant damage to buildings, infrastructure, and vegetation. Flying debris carried by the strong winds can pose a serious threat to people and animals."
+            android:textSize="15dp"
+
+            >
+
+        </TextView>
+        <TextView
+
+            android:id="@+id/t4"
+            android:layout_below="@+id/t3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:background="#E0F2F1"
+            android:text="2.  Storm Surge:"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            >
+
+        </TextView>
+        <TextView
+
+            android:id="@+id/t5"
+            android:layout_below="@+id/t4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:background="#E0F2F1"
+            android:text="One of the most dangerous aspects of cyclones is the storm surge. This is a rise in sea level caused by the cyclone's winds and low atmospheric pressure. Storm surges can lead to coastal flooding, causing extensive damage to coastal communities and infrastructure."
+            android:textSize="15dp"
+
+            >
+
+        </TextView>
+        <TextView
+
+            android:id="@+id/t6"
+            android:layout_below="@+id/t5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:background="#E0F2F1"
+            android:text="3.  Heavy Rainfall:"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            >
+
+        </TextView>
+        <TextView
+
+            android:id="@+id/t7"
+            android:layout_below="@+id/t6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:background="#E0F2F1"
+            android:text="Cyclones often bring heavy and prolonged rainfall, leading to flooding. This can result in the inundation of low-lying areas, causing damage to homes, agricultural fields, and transportation networks. Flash floods and mudslides are also common in cyclone-affected regions."
+            android:textSize="15dp"
+
+            >
+
+        </TextView>
+        <TextView
+
+            android:id="@+id/t8"
+            android:layout_below="@+id/t7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:background="#E0F2F1"
+            android:text="4.  Flooding:"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            >
+
+        </TextView>
+        <TextView
+
+            android:id="@+id/t9"
+            android:layout_below="@+id/t8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:background="#E0F2F1"
+            android:text="The combination of heavy rainfall and storm surge can lead to widespread flooding both along coastlines and inland. Floodwaters can damage infrastructure, contaminate water sources, and displace communities."
+            android:textSize="15dp"
+
+            >
+
+        </TextView>
+
+        <TextView
+
+            android:id="@+id/t10"
+            android:layout_below="@+id/t9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:background="#E0F2F1"
+            android:text="5.  Tornadoes:"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            >
+
+        </TextView>
+        <TextView
+
+            android:id="@+id/t11"
+            android:layout_below="@+id/t10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:background="#E0F2F1"
+            android:text="Cyclones can spawn tornadoes, which are smaller, but highly destructive, rotating columns of air. Tornadoes associated with cyclones can cause additional damage to structures and landscapes."
+            android:textSize="15dp"
+            >
+
+        </TextView>
+
+
+
+
+
+
+
+    </RelativeLayout>
+</ScrollView>

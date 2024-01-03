@@ -19,6 +19,7 @@ import android.view.View;
 import android.widget.TextView;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.navigation.NavigationView;
 
 public class MainActivity extends AppCompatActivity  {
@@ -27,6 +28,8 @@ public class MainActivity extends AppCompatActivity  {
     NavigationView navigationView;
     Toolbar toolbar;
     TextView t1,t2,t3,t4,t5,t6;
+
+    FloatingActionButton bottom_appbar;
 
     BottomNavigationView bottomNavigationView;
 
@@ -67,7 +70,12 @@ public class MainActivity extends AppCompatActivity  {
                     startActivity(new Intent(getApplicationContext(), Aboutus.class));
                     overridePendingTransition(0,0);
 
-                } else if (id==R.id.b_nav_sos) {
+                }else if (id==R.id.bottom_appbar) {
+                    startActivity(new Intent(getApplicationContext(), Donate.class));
+                    overridePendingTransition(0,0);
+
+                }
+                else if (id==R.id.b_nav_sos) {
                     startActivity(new Intent(getApplicationContext(), SOS.class));
                     overridePendingTransition(0,0);
 
@@ -117,8 +125,6 @@ public class MainActivity extends AppCompatActivity  {
             }
         });
         drawerLayout.closeDrawer(GravityCompat.START);
-
-
 
 //Dashboard intents
         t1.setOnClickListener(new View.OnClickListener() {

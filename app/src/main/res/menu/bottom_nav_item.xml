@@ -7,12 +7,16 @@
     <item android:id="@+id/b_nav_Aboutus"
         android:title="About Us"
         android:icon="@drawable/baseline_note_24"/>
+    <item android:id="@+id/bottom_appbar"
+        android:title="Donate"
+        android:icon="@drawable/baseline_attach_money_24"/>
     <item android:id="@+id/b_nav_sos"
         android:title="SOS"
         android:icon="@drawable/baseline_phone_24"/>
     <item android:id="@+id/b_nav_helpline"
         android:title="Helpline"
-        android:icon="@drawable/baseline_sos_24"/>
+        android:icon="@drawable/baseline_sos_24" />
+
 
 
 

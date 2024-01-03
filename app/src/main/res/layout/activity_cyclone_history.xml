@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b3"
+    tools:context=".Cyclone_history">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:layout_margin="10sp"
+            android:backgroundTint="#00838f">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="Cyclone"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="20dp"
+                android:textStyle="bold">
+            </TextView>
+
+        </androidx.cardview.widget.CardView>
+        <TextView
+            android:id="@+id/t1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:padding="10dp"
+            android:background="#E0F2F1"
+            android:text="History "
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+
+            android:id="@+id/t2"
+            android:layout_below="@+id/t1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:background="#E0F2F1"
+            android:text="1.  1970 Bhola cyclone"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            >
+
+        </TextView>
+        <LinearLayout
+            android:id="@+id/Linear1"
+            android:layout_below="@+id/t2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="220dp"
+                android:layout_height="140dp"
+                android:layout_below="@+id/t2"
+                android:layout_gravity="center"
+                android:src="@drawable/bhola"
+                >
+
+            </ImageView>
+        </LinearLayout>
+        <TextView
+
+            android:id="@+id/t3"
+            android:layout_below="@+id/Linear1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:background="#E0F2F1"
+            android:text="The 1970 Bhola cyclone (also known as the Great Cyclone of 1970) was a devastating tropical cyclone that struck East Pakistan (present-day Bangladesh) and India's West Bengal on November 12, 1970.\n             It remains the deadliest tropical cyclone ever recorded and one of the world's deadliest humanitarian disasters. \n             At least 300,000 people died in the storm,possibly as many as 500,000, primarily as a result of the storm surge that flooded much of the low-lying islands of the Ganges Delta.\n            Bhola was the sixth and strongest cyclonic storm of the 1970 North Indian Ocean cyclone season."
+            android:textSize="15dp"
+
+            >
+
+        </TextView>
+        <TextView
+
+            android:id="@+id/t5"
+            android:layout_below="@+id/t3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:background="#E0F2F1"
+            android:text="2.  1737 Calcutta cyclone"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            >
+
+        </TextView>
+        <LinearLayout
+            android:id="@+id/Linear2"
+            android:layout_below="@+id/t5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="220dp"
+                android:layout_height="140dp"
+                android:layout_below="@+id/t2"
+                android:layout_gravity="center"
+                android:src="@drawable/hooghli"
+                >
+
+            </ImageView>
+        </LinearLayout>
+        <TextView
+
+            android:id="@+id/t6"
+            android:layout_below="@+id/Linear2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:background="#E0F2F1"
+            android:text="The 1737 Calcutta cyclone, also known as the Hooghly River cyclone of 1737 or the Great Bengal cyclone of 1737, was the first super cyclone on record in North Indian Ocean regarded one of the worst natural disasters in India.\n\n          It hit the coast near Kolkata on the morning of 11 October 1737 and presumably killed over 300,000 people inland and sea, and caused widespread catastrophic damage. \n          The cyclone hit land over the Ganges River Delta, just southwest of Calcutta. Most deaths resulted from the storm surge and happened on the sea: many ships sank in the Bay of Bengal and an unknown number of livestock and wild animals were killed from the effects of the cyclone. The damage was described as extensive but numerical statistics are unknown."
+            android:textSize="15dp"
+
+            >
+
+        </TextView>
+        <TextView
+
+            android:id="@+id/t7"
+            android:layout_below="@+id/t6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:background="#E0F2F1"
+            android:text="3.  1839 Coringa cyclone"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            >
+
+        </TextView>
+        <LinearLayout
+            android:id="@+id/Linear3"
+            android:layout_below="@+id/t7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="220dp"
+                android:layout_height="140dp"
+                android:layout_below="@+id/t2"
+                android:layout_gravity="center"
+                android:src="@drawable/coringa"
+                >
+
+            </ImageView>
+        </LinearLayout>
+        <TextView
+
+            android:id="@+id/t8"
+            android:layout_below="@+id/Linear3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:background="#E0F2F1"
+            android:text="          On 25 November 1839, the port city of Coringa in Andhra Pradesh on the southeastern coast of British India was battered by a tropical cyclone that destroyed the harbor. Known as the 1839 Coringa cyclone and sometimes also referred to as the 1839 India cyclone and 1839 Andhra Pradesh cyclone, its storm surge caused wide damage.\n\n            It killed over 300,000 people, making it the second-deadliest storm worldwide after the 1970 Bhola cyclone. Many ships were destroyed and houses were washed out by rising rivers and streams. Croplands were inundated and many animals drowned due to the floods and storm surge.
+
+\n\nThe port city was not rebuilt after the cyclone. Some individuals who survived the disaster rebuilt their homes far from the coast. Some British officials named the area Hope Island, hoping to protect the city from future environmental disasters."
+            android:textSize="15dp"
+
+            >
+
+        </TextView>
+
+
+
+
+    </RelativeLayout>
+
+</ScrollView>

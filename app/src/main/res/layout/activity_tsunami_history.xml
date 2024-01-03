@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b3"
+    tools:context=".Tsunami_history">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:layout_margin="10sp"
+            android:backgroundTint="#00838f">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="Tsunami"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="20dp"
+                android:textStyle="bold">
+            </TextView>
+
+        </androidx.cardview.widget.CardView>
+        <TextView
+            android:id="@+id/t1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:padding="10dp"
+            android:text="History"
+            android:textColor="@color/black"
+            android:background="#E0F2F1"
+            android:textSize="25dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <HorizontalScrollView
+            android:layout_below="@+id/t1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableLayout
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/t1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="#00838f"
+                        android:text="Date"
+                        android:layout_weight="1"
+                        android:gravity="left"
+                        android:padding="10dp"
+                        android:textColor="#fff"
+                        android:textSize="19dp">
+
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="#00838f"
+                        android:text="Cause"
+                        android:layout_weight="1"
+                        android:gravity="left"
+                        android:padding="10dp"
+                        android:textColor="#fff"
+                        android:textSize="19dp">
+
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="#00838f"
+                        android:text="Impact"
+                        android:layout_weight="1"
+                        android:gravity="left"
+                        android:padding="10dp"
+                        android:textColor="#fff"
+                        android:textSize="19dp">
+
+                    </TextView>
+
+                </TableRow>
+                <TableRow
+                    >
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="#E0F2F1"
+                        android:text="12th April, 1762"
+                        android:layout_weight="1"
+                        android:gravity="left"
+                        android:padding="10dp"
+                        android:textColor="@color/black"
+                        android:textSize="19dp">
+
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="#E0F2F1"
+                        android:text="Earthquake in Bay of Bengal."
+                        android:layout_weight="1"
+                        android:gravity="left"
+                        android:padding="10dp"
+                        android:textColor="@color/black"
+                        android:textSize="19dp">
+
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="#E0F2F1"
+                        android:text="Tsunami wave of 1.8m at Bangladesh coast"
+                        android:layout_weight="1"
+                        android:gravity="left"
+                        android:padding="10dp"
+                        android:textColor="@color/black"
+                        android:textSize="19dp">
+
+                    </TextView>
+
+                </TableRow>
+                <TableRow
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="#E0F2F1"
+                        android:text="31st December, 1881"
+                        android:layout_weight="1"
+                        android:gravity="left"
+                        android:padding="10dp"
+                        android:textColor="@color/black"
+                        android:textSize="19dp">
+
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="#E0F2F1"
+                        android:text="Magnitude 7.8 earthquake beneath the Car Nicobar"
+                        android:layout_weight="1"
+                        android:gravity="left"
+                        android:padding="10dp"
+                        android:textColor="@color/black"
+                        android:textSize="19dp">
+
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="#E0F2F1"
+                        android:text="Entire East coast of India including Andaman and Nicobar coast was affected by tsunami"
+                        android:layout_weight="1"
+                        android:gravity="left"
+                        android:padding="10dp"
+                        android:textColor="@color/black"
+                        android:textSize="19dp">
+
+                    </TextView>
+
+                </TableRow>
+                <TableRow
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="#E0F2F1"
+                        android:text="27th August, 1883"
+                        android:layout_weight="1"
+                        android:gravity="left"
+                        android:padding="10dp"
+                        android:textColor="@color/black"
+                        android:textSize="19dp">
+
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="#E0F2F1"
+                        android:text="Eruption of karkatoa volcano (Sunda Strait) Indonesia"
+                        android:layout_weight="1"
+                        android:gravity="left"
+                        android:padding="10dp"
+                        android:textColor="@color/black"
+                        android:textSize="19dp">
+
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="#E0F2F1"
+                        android:text="East coast of India was affected and 2 m Tsunami was reported at Chennai."
+                        android:layout_weight="1"
+                        android:gravity="left"
+                        android:padding="10dp"
+                        android:textColor="@color/black"
+                        android:textSize="19dp">
+
+                    </TextView>
+
+                </TableRow>
+                <TableRow
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="#E0F2F1"
+                        android:text="26th June, 1941"
+                        android:layout_weight="1"
+                        android:gravity="left"
+                        android:padding="10dp"
+                        android:textColor="@color/black"
+                        android:textSize="19dp">
+
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="#E0F2F1"
+                        android:text="A 8.1 Magnitude earthquake in Andaman."
+                        android:layout_weight="1"
+                        android:gravity="left"
+                        android:padding="10dp"
+                        android:textColor="@color/black"
+                        android:textSize="19dp">
+
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="#E0F2F1"
+                        android:text="East Coast of India was affected by tsunami."
+                        android:layout_weight="1"
+                        android:gravity="left"
+                        android:padding="10dp"
+                        android:textColor="@color/black"
+                        android:textSize="19dp">
+
+                    </TextView>
+
+                </TableRow>
+                <TableRow
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="#E0F2F1"
+                        android:text="27th November, 1945"
+                        android:layout_weight="1"
+                        android:gravity="left"
+                        android:padding="10dp"
+                        android:textColor="@color/black"
+                        android:textSize="19dp">
+
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="#E0F2F1"
+                        android:text="27th November, 1945 (21 Hour 56 Min. 50 Sec. UTC) in the Makran subduction zone (Baluchistan, Pakistan) (24.5N and 63.0E) with Mw of 8.1"
+                        android:layout_weight="1"
+                        android:gravity="left"
+                        android:padding="10dp"
+                        android:textColor="@color/black"
+                        android:textSize="19dp">
+
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="#E0F2F1"
+                        android:text="West coast of India was affected by Tsunami."
+                        android:layout_weight="1"
+                        android:gravity="left"
+                        android:padding="10dp"
+                        android:textColor="@color/black"
+                        android:textSize="19dp">
+
+                    </TextView>
+
+                </TableRow>
+
+
+            </TableLayout>
+
+
+        </HorizontalScrollView>
+
+    </RelativeLayout>
+</ScrollView>
