@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b3"
+    tools:context=".Landslide_recent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:layout_margin="10sp"
+            android:backgroundTint="#00838f">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="Landslide"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="20dp"
+                android:textStyle="bold">
+            </TextView>
+
+        </androidx.cardview.widget.CardView>
+        <TextView
+            android:id="@+id/t1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:padding="10dp"
+            android:text="Recent Landslide"
+            android:textColor="@color/black"
+            android:background="#E0F2F1"
+            android:textSize="25dp"
+            android:textStyle="bold">
+
+        </TextView>
+        <TextView
+            android:id="@+id/t2"
+            android:layout_below="@+id/t1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:padding="10dp"
+            android:background="#E0F2F1"
+            android:text="1. 2023 Raigad landslide "
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold">
+
+        </TextView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/c1"
+            android:layout_below="@+id/t2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            app:cardElevation="8dp"
+            app:cardCornerRadius="20dp"
+            android:backgroundTint="#E0F2F1">
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+
+                <TextView
+                    android:id="@+id/t4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+                    android:text="The landslide occurred 9:30 on 19 July 2023, in the remote mountain hamlet of Irshalwadi, approximately 60 kilometres (37 mi) from Mumbai, the capital of Maharashtra.\n       The village resides close to Irshalgad fort, which is a popular weekend trekking spot. \n      The majority of the villagers are from the Thakur Adivasi community and have been residing in this region for many generations.Over 98 people were rescued, and 26 bodies had been recovered.Nine members of a family died.Maharashtra's deputy chief minister, Devendra Fadnavis, told the state assembly that an estimated 225 people lived in the hamlet.\n
+
+Debris was, in some places, 10–29 feet (3.0–8.8 m) deep.At least 109 people were left missing under the debris. Seventeen out of 50 houses in the hamlet were damaged."
+                    android:textSize="15dp"
+                    >
+
+                </TextView>
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+        </androidx.cardview.widget.CardView>
+        <TextView
+            android:id="@+id/t5"
+
+            android:layout_below="@+id/c1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"
+            android:background="#E0F2F1"
+            android:text="2 .2022 Manipur landslide "
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold">
+
+        </TextView>
+        <LinearLayout
+            android:id="@+id/Linear1"
+            android:layout_below="@+id/t5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/i1"
+                android:layout_marginTop="10dp"
+                android:layout_width="220dp"
+                android:layout_height="140dp"
+                android:layout_below="@+id/t2"
+                android:layout_gravity="center"
+                android:src="@drawable/landmanipur"
+                >
+
+            </ImageView>
+        </LinearLayout>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/c2"
+            android:layout_below="@+id/Linear1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            app:cardElevation="8dp"
+            app:cardCornerRadius="20dp"
+            android:backgroundTint="#E0F2F1">
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/t6"
+                    android:layout_below="@+id/Linear1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+                    android:text="A large landslide occurred in Noney district of the Indian state of Manipur near the Tupul railway construction site on the night of 30 June 2022.[3] It killed 58 people and three people were missing.[2] Eighteen people were injured. Twenty-nine Indian Army personnel and 29 civilians were among the deceased. Of the missing three people, two were civilians and one was an Indian Army personnel.[4]"
+                    android:textSize="15dp"
+                    >
+
+                </TextView>
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+
+    </RelativeLayout>
+</ScrollView>

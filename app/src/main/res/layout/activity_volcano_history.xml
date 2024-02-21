@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b3"
+    tools:context=".Volcano_history">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:layout_margin="10sp"
+            android:backgroundTint="#00838f">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="Volcanic Erruption"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="20dp"
+                android:textStyle="bold">
+            </TextView>
+
+        </androidx.cardview.widget.CardView>
+        <TextView
+            android:id="@+id/t1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:padding="10dp"
+            android:background="#E0F2F1"
+            android:text="History "
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+
+            android:id="@+id/t2"
+            android:layout_below="@+id/t1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:background="#E0F2F1"
+            android:text="Barren Island"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            >
+
+        </TextView>
+        <LinearLayout
+            android:id="@+id/Linear1"
+            android:layout_below="@+id/t2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="220dp"
+                android:layout_height="140dp"
+                android:layout_below="@+id/t2"
+                android:layout_gravity="center"
+                android:src="@drawable/volcanoh"
+                >
+
+            </ImageView>
+        </LinearLayout>
+        <TextView
+
+            android:id="@+id/t3"
+            android:layout_below="@+id/Linear1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:background="#E0F2F1"
+            android:text="       Barren Island is an island located in the Andaman Sea is the only confirmed active volcano in the Indian subcontinent, and the only active volcano along a chain of volcanoes from Sumatra to Myanmar.\n\n        It is a part of the Indian Union territory of Andaman and Nicobar Islands, and lies about 138 km (86 mi) northeast of the territory's capital, Port Blair.\n\n
+The first recorded eruption of the volcano dates back to 1787. Since then, the volcano has erupted more than ten times, with the most recent one being in 2022.\n        After the first recorded eruption in 1787, further eruptions were recorded in 1789, 1795, 1803–04, and 1852.\n\n        After nearly one and a half century of dormancy, the island had another eruption in 1991 that lasted six months and caused considerable damage."
+            android:textSize="15dp"
+
+            >
+
+        </TextView>
+        <TextView
+
+            android:id="@+id/t4"
+            android:layout_below="@+id/t3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:background="#E0F2F1"
+            android:text="
+Narcondam Island"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            >
+
+        </TextView>
+        <LinearLayout
+            android:id="@+id/Linear2"
+            android:layout_below="@+id/t4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="220dp"
+                android:layout_height="140dp"
+                android:layout_below="@+id/t2"
+                android:layout_gravity="center"
+                android:src="@drawable/v_narcondam"
+                >
+
+            </ImageView>
+        </LinearLayout>
+        <TextView
+
+            android:id="@+id/t5"
+            android:layout_below="@+id/Linear2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:background="#E0F2F1"
+            android:text=" Narcondam, India's easternmost island, is a small volcanic island located in the northern Andaman Sea.\n         The island's peak rises to 710 m above mean sea level, and it is formed of andesite. \n\n       It is part of the Andaman Islands, the main body of which lie approximately 74 km (46 mi) to the west.\n       The island is part of the Indian union territory of Andaman and Nicobar Islands. The island is small, covering an area of approximately 7.6 square kilometres.\n\n        It was classified as a dormant volcano by the Geological Survey of India.     "
+            android:textSize="15dp"
+
+            >
+
+        </TextView>
+    </RelativeLayout>
+</ScrollView>

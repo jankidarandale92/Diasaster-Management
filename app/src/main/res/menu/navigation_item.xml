@@ -1,25 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu
     xmlns:android="http://schemas.android.com/apk/res/android">
-    <item
-        android:id="@+id/dhome"
-        android:title="Home"
-        android:icon="@drawable/baseline_home_24"/>
-    <item
-        android:id="@+id/dlocation"
-        android:title="Location"
-        android:icon="@drawable/baseline_location_on_24"/>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/dhome"
+            android:title="@string/homen"
+            android:icon="@drawable/baseline_home_24"/>
+        <item
+            android:id="@+id/dlocation"
+            android:title="@string/location"
+            android:icon="@drawable/baseline_location_on_24"/>
 
-    <item
-        android:id="@+id/dalert"
-        android:title="Alert"
-        android:icon="@drawable/baseline_crisis_alert_24"/>
-    <item
-        android:id="@+id/dshare"
-        android:title="Share App"
-        android:icon="@drawable/baseline_share_24"/>
-    <item
-        android:id="@+id/daboutUs"
-        android:title="About Us"
-        android:icon="@drawable/baseline_note_24"/>
+    </group>
+    <group android:checkableBehavior="single">
+        <item android:title="Communicate">
+            <menu>
+                <item
+                    android:id="@+id/dshare"
+                    android:title="@string/share_app"
+                    android:icon="@drawable/baseline_share_24"/>
+
+                <item android:id="@+id/drateUs"
+                    android:title="@string/rate_us"
+                    android:icon="@drawable/baseline_star_24"/>
+
+            </menu>
+        </item>
+    </group>
+    <group android:checkableBehavior="single">
+        <item android:title="Exit">
+            <menu>
+                <item
+                    android:id="@+id/dlogout"
+                    android:title="Log Out"
+                    android:icon="@drawable/baseline_logout_24"/>
+
+
+            </menu>
+        </item>
+    </group>
 </menu>

@@ -18,8 +18,8 @@ import android.widget.Toast;
 public class EmergencyCall extends AppCompatActivity {
 
     private static final int REQUEST_CALL = 1;
-    private TextView Text1, Text2, Text3, Text4, Text5, Text6, Text7, Text8, Text9, Text10, Text11, Text12, Text13, Text14, Text15, Text16, Text17, Text18, Text19, Text20;
-    private Button B1, B2, B3, B4, B5, B6, B7, B8, B9, B10, B11, B12, B13, B14, B15, B16, B17, B18, B19, B20;
+    private TextView Text1, Text2, Text3, Text4, Text5, Text6, Text7, Text8, Text9, Text10, Text11, Text12, Text13, Text14, Text15, Text16, Text17, Text18, Text19, Text20,Text21;
+    private Button B1, B2, B3, B4, B5, B6, B7, B8, B9, B10, B11, B12, B13, B14, B15, B16, B17, B18, B19, B20,B21;
 
 
     @Override
@@ -47,6 +47,7 @@ public class EmergencyCall extends AppCompatActivity {
         Text18 = findViewById(R.id.text18);
         Text19 = findViewById(R.id.text19);
         Text20 = findViewById(R.id.text20);
+        Text21 = findViewById(R.id.text21);
 
         B1 = findViewById(R.id.B1);
         B2 = findViewById(R.id.B2);
@@ -68,7 +69,7 @@ public class EmergencyCall extends AppCompatActivity {
         B18 = findViewById(R.id.B18);
         B19 = findViewById(R.id.B19);
         B20 = findViewById(R.id.B20);
-
+        B21 = findViewById(R.id.B21);
 
         B1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -188,6 +189,12 @@ public class EmergencyCall extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 B20();
+            }
+        });
+        B21.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                B21();
             }
         });
     }
@@ -431,6 +438,17 @@ public class EmergencyCall extends AppCompatActivity {
             }
         }
     }
+    private void B21() {
+        String number = Text21.getText().toString();
+        if (number.trim().length() > 0) {
+            if (ContextCompat.checkSelfPermission(EmergencyCall.this, Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
+                ActivityCompat.requestPermissions(EmergencyCall.this, new String[]{Manifest.permission.CALL_PHONE}, REQUEST_CALL);
+            } else {
+                String dial = "tel:" + number;
+                startActivity(new Intent(Intent.ACTION_CALL, Uri.parse(dial)));
+            }
+        }
+    }
 
 
     @Override
@@ -459,6 +477,7 @@ public class EmergencyCall extends AppCompatActivity {
                 B18();
                 B19();
                 B20();
+                B21();
 
 
             } else {

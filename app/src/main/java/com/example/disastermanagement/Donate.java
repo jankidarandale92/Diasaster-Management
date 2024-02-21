@@ -10,7 +10,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 public class Donate extends AppCompatActivity {
-    EditText edit1,edit2,edit3,edit4;
+    EditText edit1, edit2,edit5;
     Button b1;
 
     @Override
@@ -20,20 +20,35 @@ public class Donate extends AppCompatActivity {
 
         edit1 = findViewById(R.id.edit1);
         edit2 = findViewById(R.id.edit2);
-        edit3 = findViewById(R.id.edit3);
-        edit4 = findViewById(R.id.edit4);
+        edit5 = findViewById(R.id.edit5);
 
-        b1=findViewById(R.id.b1);
+        b1 = findViewById(R.id.b1);
 
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                String userInput1 = edit1.getText().toString().trim();
+                String userInput2 = edit2.getText().toString().trim();
+                String userInput5 = edit5.getText().toString().trim();
 
 
-                Toast.makeText(Donate.this, "Donation Successfull !!!" +
-                        "Thanks for your support", Toast.LENGTH_SHORT).show();
+                if (userInput1.isEmpty()) {
+                    // Show toast when EditText is empty
+                    Toast.makeText(Donate.this, "Please enter your name", Toast.LENGTH_SHORT).show();
+                } else if(userInput2.isEmpty()) {
+                    Toast.makeText(Donate.this, "Please enter account no.", Toast.LENGTH_SHORT).show();
+                }
+                else if(userInput5.isEmpty()) {
+                    Toast.makeText(Donate.this, "Please enter ammount ", Toast.LENGTH_SHORT).show();
+                }
+                else {
+                    Intent Donate1 = new Intent(Donate.this,Donate2.class);
+                    startActivity(Donate1);
+                }
+
+
             }
-        });
 
+        });
     }
 }

@@ -1,124 +1,228 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
+    android:background="@drawable/b3"
     tools:context=".Earth_history">
 
-
-    <androidx.cardview.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10sp"
-        android:layout_marginLeft="10sp"
-        android:layout_marginRight="10sp"
-        android:layout_margin="10sp"
-        android:backgroundTint="#00838f">
-
-        <TextView
-            android:id="@+id/textView"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:gravity="center"
-            android:layout_marginTop="10dp"
-            android:text="EARTHQUAKE"
-            android:textAlignment="center"
-            android:textColor="@color/black"
-            android:textSize="20dp"
-            android:textStyle="bold">
-        </TextView>
-
-    </androidx.cardview.widget.CardView>
-
-
-
-    <ScrollView
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-        <LinearLayout
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card1"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical">
-            <androidx.cardview.widget.CardView
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:layout_margin="10sp"
+            android:backgroundTint="#00838f">
+
+            <TextView
+                android:id="@+id/textView"
                 android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="Earthquack"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="20dp"
+                android:textStyle="bold">
+            </TextView>
+
+        </androidx.cardview.widget.CardView>
+        <TextView
+            android:id="@+id/t1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:padding="10dp"
+            android:text="History"
+            android:textColor="@color/black"
+            android:background="#E0F2F1"
+            android:textSize="25dp"
+            android:textStyle="bold">
+
+        </TextView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/c4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/t1"
+            android:layout_marginStart="10sp"
+            android:layout_marginLeft="10sp"
+            android:layout_marginTop="10sp"
+            android:layout_marginEnd="10sp"
+            android:layout_marginRight="10sp"
+            android:layout_marginBottom="10sp"
+            app:cardCornerRadius="30dp"
+            android:backgroundTint="#00838f">
+            <TextView
+
+                android:id="@+id/t2"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_columnWeight="1"
-                android:layout_rowWeight="1"
+                android:layout_below="@+id/t1"
+                android:layout_marginTop="10dp"
+                android:background="#00838f"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:text="1.  KOYNA EARTHQUAKE OF 1967 "
+                android:textColor="@color/white"
 
-                android:layout_marginBottom="10dp"
-                android:layout_marginRight="10dp"
-                android:layout_marginLeft="10dp"
-                app:cardElevation="8dp"
-                app:cardCornerRadius="20dp"
-                android:backgroundTint="#E0F2F1">
 
-                <androidx.appcompat.widget.LinearLayoutCompat
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
+                android:textSize="15dp" />
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/c5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/c4"
+            android:layout_marginStart="10sp"
+            android:layout_marginLeft="10sp" android:layout_marginEnd="10sp"
+            android:layout_marginRight="10sp"
+            android:layout_marginBottom="10sp"
+            app:cardCornerRadius="30dp"
+            android:backgroundTint="#E0F2F1">
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="50dp"
-                        android:padding="10dp"
-                        android:text="History"
-                        android:textColor="@color/black"
-                        android:textSize="25dp"
-                        android:textStyle="bold">
+            <TextView
 
-                    </TextView>
+                android:id="@+id/t3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/t1"
+                android:layout_marginTop="10dp"
+                android:background="#E0F2F1"
+                android:padding="10dp"
+                android:text="       This was a magnitude 6.5 earthquake that took place close to the 103 metre concrete gravity
+dam at Koyna (Berg et al., 1969). Prior to this earthquake, the area used to be considered
+aseismic. However, after the construction of dam and filling up of reservoir in 1962, the seismic
+activity increased significantly. \n\n        The main shock of December 10, 1967 caused widespread
+damage, killing about 200 persons and injuring more than 1500 persons. The maximum shaking
+intensity was assigned as VIII on the MM scale. This earthquake provides one of the important
+instances of the reservoir-induced seismicity"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/c6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/c5"
+            android:layout_marginStart="10sp"
+            android:layout_marginLeft="10sp"
+            android:layout_marginTop="10sp"
+            android:layout_marginEnd="10sp"
+            android:layout_marginRight="10sp"
+            android:layout_marginBottom="10sp"
+            app:cardCornerRadius="30dp"
+            android:backgroundTint="#00838f">
+            <TextView
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:padding="10dp"
-                        android:text="   1.      Date:03/23/1970 \n
-        Region: Broach \n
-        Depth : 59 km\n
-        Magnitude: 5.4 \n
-        Deaths: 26 \n\n
+                android:id="@+id/t4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/t1"
+                android:layout_marginTop="10dp"
+                android:background="#00838f"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:text="2.. BIHAR - NEPAL EARTHQUAKE OF 1988  "
+                android:textColor="@color/white"
 
-  2.  Date:09/02/1963\n
-        Region:Kashmir (Sw)\n
-        Depth :5.3\n
-        Deaths:80\n\n
 
-  3.    Date:02/04/1961\n
-        Region: India\n
-        Depth : 7.6\n
-        Deaths: 0\n\n
-  4.  Date: 07/21/1956\n
-      Region: Anjar, Bhuj, Gandhidham, Kandla\n
-      Magnitude: 6.1\n
-      Deaths:156\n\n
-  5.  Date: 05/17/1955\n
-      Region: Little Nicobar Island
-      Depth: 49 km\n
-      Magnitude: 7.3\n
-      Deaths: 0\n\n
-  6. Date: 08/15/1950\n
-     Region: India-China\n
-     Depth: 30 km\n
-     Magnitude: 8.6\n
-     Deaths: 1530\n\n
+                android:textSize="15dp" />
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/t7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/c6"
+            android:layout_marginStart="10sp"
+            android:layout_marginLeft="10sp" android:layout_marginEnd="10sp"
+            android:layout_marginRight="10sp"
+            android:layout_marginBottom="10sp"
+            app:cardCornerRadius="30dp"
+            android:backgroundTint="#E0F2F1">
+
+            <TextView
+
+                android:id="@+id/t5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/t1"
+                android:layout_marginTop="10dp"
+                android:background="#E0F2F1"
+                android:padding="10dp"
+                android:text="         This magnitude 6.6 earthquake shook northern Bihar and Nepal on August 21, 1988 at 04:39
+hours (e.g., GSI, 1993; Jain, 1992; Jain et al., 1991, Subramanyam, et al. ???, Thakkar et al. ???).\n\n
+About 1004 persons died (282 in India and 722 in Nepal) and more than 16,000 injured;
+casualties were significantly reduced since in the summer time most people sleep outdoors.
 "
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/c7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/t7"
+            android:layout_marginStart="10sp"
+            android:layout_marginLeft="10sp"
+            android:layout_marginTop="10sp"
+            android:layout_marginEnd="10sp"
+            android:layout_marginRight="10sp"
+            android:layout_marginBottom="10sp"
+            app:cardCornerRadius="30dp"
+            android:backgroundTint="#00838f">
+            <TextView
 
-                        android:textColor="@color/black"
-                        android:textSize="15dp">
+                android:id="@+id/t8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/t1"
+                android:layout_marginTop="10dp"
+                android:background="#00838f"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:text="3. UTTARKASHI EARTHQUAKE OF 1991 "
+                android:textColor="@color/white"
 
 
-                    </TextView>
-                </androidx.appcompat.widget.LinearLayoutCompat>
+                android:textSize="15dp" />
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/c9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/c7"
+            android:layout_marginStart="10sp"
+            android:layout_marginLeft="10sp" android:layout_marginEnd="10sp"
+            android:layout_marginRight="10sp"
+            android:layout_marginBottom="10sp"
+            app:cardCornerRadius="30dp"
+            android:backgroundTint="#E0F2F1">
 
+            <TextView
 
-            </androidx.cardview.widget.CardView>
-
-        </LinearLayout>
-    </ScrollView>
-
-
-
-</RelativeLayout>
+                android:id="@+id/t10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/t1"
+                android:layout_marginTop="10dp"
+                android:background="#E0F2F1"
+                android:padding="10dp"
+                android:text="       An earthquake of magnitude 6.6 shook the districts of Uttarkashi, Tehri, and Chamoli in the
+state of Uttar Pradesh on October 20, 1991 at 2:52 hours (GSI, 1992; Jain et al., 1992). The death
+toll was estimated to be around 768 persons, with about 5,066 injured.\n\n        The area has one of the
+lowest population density in the state, and hence the rather low number of deaths and injuries.
+The maximum intensity of IX on the MM scale was assigned to an area of about 20 square km. "
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+</ScrollView>

@@ -1,6 +1,23 @@
 <resources>
-    <string name="app_name">Disaster Management</string>
-    <string name="OpenDrawer">Open Navigation Drawer</string>
-    <string name="CloseDrawer">Close Navigation Drawer</string>
+    <string name="app_name" translatable="false">Disaster Management</string>
+    <string name="OpenDrawer" translatable="false">Open Navigation Drawer</string>
+    <string name="CloseDrawer" translatable="false">Close Navigation Drawer</string>
+    <string name="weather">Weather</string>
+    <string name="articles">Articles</string>
+    <string name="safety_tips">Safety Tips</string>
+    <string name="do_s_dont_s">Do\'s / Dont\'s</string>
+    <string name="emergency_contacts">Emergency Contacts</string>
+    <string name="log_out">Log Out</string>
+    <string name="change_language">Change Language</string>
+    <string name="home">Home</string>
+    <string name="donate">Donate</string>
+    <string name="about_us">About Us</string>
+    <string name="homen">Home</string>
+    <string name="location">Location</string>
+    <string name="alert">Alert</string>
+    <string name="about_usn">About Us</string>
+    <string name="communicate">communicate</string>
+    <string name="share_app">Share App</string>
+    <string name="rate_us">Rate Us</string>
 
 </resources>

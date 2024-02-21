@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b3"
+    tools:context=".Flood_effect">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10sp"
+            android:layout_marginLeft="10sp"
+            android:layout_marginTop="10sp"
+            android:layout_marginEnd="10sp"
+            android:layout_marginRight="10sp"
+            android:layout_marginBottom="10sp"
+            android:backgroundTint="#00838f">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="Flood"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="20dp"
+                android:textStyle="bold"></TextView>
+
+        </androidx.cardview.widget.CardView>
+        <TextView
+            android:id="@+id/t1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:padding="10dp"
+            android:background="#E0F2F1"
+            android:text="Effects "
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+
+            android:id="@+id/t2"
+            android:layout_below="@+id/t1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:background="#E0F2F1"
+            android:text="1.Loss of Life and Injury: "
+            android:textSize="15dp"
+            android:textStyle="bold"
+            >
+
+        </TextView>
+        <TextView
+
+            android:id="@+id/t3"
+            android:layout_below="@+id/t2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:background="#E0F2F1"
+            android:text=" Floods can result in the loss of human lives and cause injuries. Swift-moving floodwaters can be particularly dangerous, leading to drowning and other water-related accidents."
+            android:textSize="15dp"
+
+            >
+
+        </TextView>
+        <TextView
+
+            android:id="@+id/t4"
+            android:layout_below="@+id/t3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:background="#E0F2F1"
+            android:text="2. Property Damage: "
+            android:textSize="15dp"
+            android:textStyle="bold"
+            >
+
+        </TextView>
+        <TextView
+
+            android:id="@+id/t5"
+            android:layout_below="@+id/t4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:background="#E0F2F1"
+            android:text="Floods can cause extensive damage to homes, buildings, and infrastructure. Water damage to structures can result in the loss of possessions, and in some cases, entire communities may be displaced."
+
+            android:textSize="15dp"
+
+            >
+
+        </TextView>
+        <TextView
+
+            android:id="@+id/t6"
+            android:layout_below="@+id/t5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:background="#E0F2F1"
+            android:text="3.Infrastructure Damage:"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            >
+
+        </TextView>
+        <TextView
+
+            android:id="@+id/t7"
+            android:layout_below="@+id/t6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:background="#E0F2F1"
+            android:text=" Floods can damage critical infrastructure such as roads, bridges, dams, and utilities (water supply, sewage systems, and electrical grids). This damage can disrupt transportation, communication, and essential services." android:textSize="15dp"
+
+            >
+
+        </TextView>
+        <TextView
+
+            android:id="@+id/t8"
+            android:layout_below="@+id/t7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:background="#E0F2F1"
+            android:text="4. Agricultural Losses: "
+            android:textSize="15dp"
+            android:textStyle="bold"
+            >
+
+        </TextView>
+        <TextView
+
+            android:id="@+id/t9"
+            android:layout_below="@+id/t8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:background="#E0F2F1"
+            android:text="Landslides can alter the landscape, affecting ecosystems, vegetation, and wildlife habitats. They may lead to soil erosion, loss of biodiversity, and changes in the natural environment."
+            android:textSize="15dp"
+
+            >
+
+        </TextView>
+
+        <TextView
+
+            android:id="@+id/t10"
+            android:layout_below="@+id/t9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:background="#E0F2F1"
+            android:text="5.  Economic Consequences: "
+            android:textSize="15dp"
+            android:textStyle="bold"
+            >
+
+        </TextView>
+        <TextView
+
+            android:id="@+id/t11"
+            android:layout_below="@+id/t10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:background="#E0F2F1"
+            android:text="Floodwaters can destroy crops and farmlands, leading to significant economic losses for farmers. Soil erosion and sedimentation can also affect the long-term fertility of agricultural areas."
+            android:textSize="15dp"
+            >
+
+        </TextView>
+        <TextView
+
+            android:id="@+id/t12"
+            android:layout_below="@+id/t11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:background="#E0F2F1"
+            android:text="6. Contamination of Water Sources: "
+            android:textSize="15dp"
+            android:textStyle="bold"
+            >
+
+        </TextView>
+        <TextView
+
+            android:id="@+id/t13"
+            android:layout_below="@+id/t12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:background="#E0F2F1"
+            android:text="Floodwaters can carry pollutants, chemicals, and debris, contaminating water sources. This contamination poses health risks as it can lead to the spread of waterborne diseases." android:textSize="15dp"
+            >
+
+        </TextView>
+        <TextView
+
+            android:id="@+id/t14"
+            android:layout_below="@+id/t13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:background="#E0F2F1"
+            android:text="7. Disruption of Services:"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            >
+
+        </TextView>
+        <TextView
+
+            android:id="@+id/t15"
+            android:layout_below="@+id/t14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:background="#E0F2F1"
+            android:text="Floods can disrupt essential services such as healthcare, education, and emergency response systems. Hospitals and schools may be rendered inaccessible, making it challenging to provide medical care and education during and after a flood event."  android:textSize="15dp"
+            >
+
+        </TextView>
+    </RelativeLayout>
+</ScrollView>

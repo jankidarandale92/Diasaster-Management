@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="weather">हवामान</string>
+    <string name="articles">लेख</string>
+    <string name="safety_tips">सुरक्षा टिपा</string>
+    <string name="do_s_dont_s">करा आणि करू नका</string>
+    <string name="emergency_contacts">आपत्कालीन संपर्क</string>
+    <string name="log_out">बाहेर पडणे</string>
+    <string name="change_language">भाषा बदला</string>
+    <string name="home">मुख्यपृष्ठ</string>
+    <string name="donate">देणगी</string>
+    <string name="about_us">आमच्याबद्दल</string>
+    <string name="homen">मुख्यपृष्ठ</string>
+    <string name="location">स्थान</string>
+    <string name="alert">बातम्या</string>
+    <string name="about_usn">आमच्याबद्दल</string>
+    <string name="communicate">संवाद साधणे</string>
+    <string name="share_app">ॲप शेअर करा</string>
+    <string name="rate_us">आम्हाला रेट करा</string>
+
+</resources>

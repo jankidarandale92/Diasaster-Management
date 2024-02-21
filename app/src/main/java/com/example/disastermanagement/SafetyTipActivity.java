@@ -7,6 +7,8 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -28,10 +30,12 @@ public class SafetyTipActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_safety_tip);
+        TextView txt2;
+        txt2=findViewById(R.id.txt2);
 
         FirebaseApp.initializeApp(this);
-        MaterialToolbar toolbar=findViewById(R.id.safety_toolbar);
-        setSupportActionBar(toolbar);
+//        MaterialToolbar toolbar=findViewById(R.id.safety_toolbar);
+//        setSupportActionBar(toolbar);
 
         RecyclerView recyclerView=findViewById(R.id.recycler);
         FirebaseStorage.getInstance().getReference().child("Videos").listAll().addOnSuccessListener(new OnSuccessListener<ListResult>() {
@@ -73,5 +77,16 @@ public class SafetyTipActivity extends AppCompatActivity {
                 Toast.makeText(SafetyTipActivity.this, "Failed to retrieve videos", Toast.LENGTH_SHORT).show();
             }
         });
+        txt2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                gotoUrl("https://www.travelers.com/resources/weather/emergency-preparedness/disaster-preparedness-tips");
+            }
+        });
+    }
+    private void gotoUrl(String s) {
+        Uri uri=Uri.parse(s);
+        startActivity(new Intent(Intent.ACTION_VIEW,uri));
+
     }
 }

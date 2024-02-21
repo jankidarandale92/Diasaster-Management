@@ -1,24 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".SafetyTipActivity"
-    android:background="@drawable/b3">
-
-    <com.google.android.material.appbar.MaterialToolbar
+    android:background="@drawable/b3"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#00838F"
-        app:titleTextColor="?attr/colorSurface"
-        android:id="@+id/safety_toolbar"/>
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Safety Tip"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:background="#00838F"
+            >
+        </TextView>
+    </LinearLayout>
 
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
         android:layout_below="@+id/safety_toolbar"
         android:id="@+id/recycler"/>
 
-</RelativeLayout>
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:text="for more details refer to following link-"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="40dp"
+        android:text="https://www.travelers.com/resources/weather/emergency-preparedness/disaster-preparedness-tips"
+        android:textColor="#368ED4"
+        android:textSize="17dp"/>
+    </LinearLayout>
+</ScrollView>
