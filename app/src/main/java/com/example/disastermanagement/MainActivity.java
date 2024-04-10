@@ -203,9 +203,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if (isMobileDataEnabled()) {
-                    // Proceed with your action here
-                    // For example, open a new activity or perform some task
-                    // Toast.makeText(MainActivity.this, "Weather", Toast.LENGTH_SHORT).show();
+
                     Intent Dash2 = new Intent(MainActivity.this, WeatherAppActivity.class);
                     startActivity(Dash2);
                 } else {

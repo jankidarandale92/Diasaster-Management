@@ -60,7 +60,7 @@
                         android:layout_height="180dp"
                         android:layout_marginLeft="10dp"
                         android:layout_marginRight="10dp"
-                        android:id="@+id/videoView"
+                        android:id="@+id/videoView6"
                         android:layout_gravity="center"
                         android:layout_marginTop="20dp"
                         />
@@ -71,7 +71,7 @@
                         android:layout_gravity="center"
                         android:layout_marginTop="20dp"
                         android:gravity="center"
-                        android:text="Earthquack"
+                        android:text="Volcano"
                         android:textColor="@color/black"
                         android:textSize="27dp"
                         android:textStyle="bold">
@@ -748,7 +748,7 @@
                         android:layout_height="160dp"
                         android:layout_marginLeft="10dp"
                         android:layout_marginRight="10dp"
-                        android:id="@+id/videoView6"
+                        android:id="@+id/videoView"
                         android:layout_gravity="center"
                         android:layout_marginTop="20dp"
                         />
@@ -760,7 +760,7 @@
                         android:layout_gravity="center"
                         android:layout_marginTop="20dp"
                         android:gravity="center"
-                        android:text="Volcano"
+                        android:text="Earthquack"
                         android:textColor="@color/black"
                         android:textSize="27dp"
                         android:textStyle="bold">

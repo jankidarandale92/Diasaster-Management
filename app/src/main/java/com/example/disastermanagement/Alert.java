@@ -114,9 +114,6 @@ public class Alert extends AppCompatActivity {
     }
 
     private void displayNews(Article article) {
-        // Implement your logic to display the news article.
-        // For example, you can start a new activity to display the full article.
-        // Replace the following lines with your implementation.
         String newsUrl = article.getUrl();
         Intent intent = new Intent(this, NewsDetailActivity.class);
         intent.putExtra(NewsDetailActivity.EXTRA_URL, newsUrl);

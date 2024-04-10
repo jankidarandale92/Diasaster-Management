@@ -285,7 +285,7 @@
             android:contentDescription="Donation"
             android:elevation="80dp"
             android:maxWidth="40dp"
-            android:src="@drawable/baseline_attach_money_24"
+            android:src="@drawable/baseline_currency_rupee_24"
             android:tint="@color/white"
 
             app:layout_anchor="@id/bottom_appbar" />

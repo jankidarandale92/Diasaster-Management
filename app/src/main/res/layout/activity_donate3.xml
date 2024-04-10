@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/b3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Donate3">
+
+    <LinearLayout
+        android:id="@+id/L1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Donation"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:background="#00838F" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:layout_below="@+id/L1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose your Payment Option"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+    <RadioGroup
+        android:gravity="center"
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t2"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+
+        <RadioButton
+            android:layout_marginLeft="80dp"
+
+            android:id="@+id/paytmRadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="Paytm"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            />
+
+        <RadioButton
+            android:layout_marginLeft="80dp"
+
+            android:id="@+id/googlePayRadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Google Pay"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            />
+
+        <RadioButton
+            android:layout_marginLeft="80dp"
+
+            android:id="@+id/phonePeRadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="PhonePe"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            />
+
+        <RadioButton
+            android:layout_marginLeft="80dp"
+
+            android:id="@+id/bhimRadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="BHIM"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            />
+    </RadioGroup>
+</RelativeLayout>

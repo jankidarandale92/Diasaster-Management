@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/b3"
-    tools:context=".Volcano_history">
+    tools:context=".Earth_history">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -27,7 +27,7 @@
                 android:layout_height="match_parent"
                 android:gravity="center"
                 android:layout_marginTop="10dp"
-                android:text="Volcanic Erruption"
+                android:text="Earthquack"
                 android:textAlignment="center"
                 android:textColor="#fff"
                 android:textSize="20dp"
@@ -41,111 +41,188 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="50dp"
             android:padding="10dp"
-            android:background="#E0F2F1"
-            android:text="History "
+            android:text="History"
             android:textColor="@color/black"
+            android:background="#E0F2F1"
             android:textSize="25dp"
             android:textStyle="bold">
 
         </TextView>
-
-        <TextView
-
-            android:id="@+id/t2"
+        <androidx.cardview.widget.CardView
+            android:id="@+id/c4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:layout_below="@+id/t1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:padding="10dp"
-            android:textColor="@color/black"
-            android:background="#E0F2F1"
-            android:text="Barren Island"
-            android:textSize="15dp"
-            android:textStyle="bold"
-            >
+            android:layout_marginStart="10sp"
+            android:layout_marginLeft="10sp"
+            android:layout_marginTop="10sp"
+            android:layout_marginEnd="10sp"
+            android:layout_marginRight="10sp"
+            android:layout_marginBottom="10sp"
+            app:cardCornerRadius="30dp"
+            android:backgroundTint="#00838f">
+            <TextView
 
-        </TextView>
-        <LinearLayout
-            android:id="@+id/Linear1"
-            android:layout_below="@+id/t2"
+                android:id="@+id/t2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/t1"
+                android:layout_marginTop="10dp"
+                android:background="#00838f"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:text="1.  KOYNA EARTHQUAKE OF 1967 "
+                android:textColor="@color/white"
+
+
+                android:textSize="15dp" />
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/c5"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical">
-            <ImageView
-                android:layout_width="220dp"
-                android:layout_height="140dp"
-                android:layout_below="@+id/t2"
-                android:layout_gravity="center"
-                android:src="@drawable/volcanoh"
-                >
-
-            </ImageView>
-        </LinearLayout>
-        <TextView
-
-            android:id="@+id/t3"
-            android:layout_below="@+id/Linear1"
-            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:padding="10dp"
-            android:textColor="@color/black"
-            android:background="#E0F2F1"
-            android:text="       Barren Island is an island located in the Andaman Sea is the only confirmed active volcano in the Indian subcontinent, and the only active volcano along a chain of volcanoes from Sumatra to Myanmar.\n\n        It is a part of the Indian Union territory of Andaman and Nicobar Islands, and lies about 138 km (86 mi) northeast of the territory's capital, Port Blair.\n\n
-The first recorded eruption of the volcano dates back to 1787. Since then, the volcano has erupted more than ten times, with the most recent one being in 2022.\n        After the first recorded eruption in 1787, further eruptions were recorded in 1789, 1795, 1803–04, and 1852.\n\n        After nearly one and a half century of dormancy, the island had another eruption in 1991 that lasted six months and caused considerable damage."
-            android:textSize="15dp"
+            android:layout_below="@+id/c4"
+            android:layout_marginStart="10sp"
+            android:layout_marginLeft="10sp" android:layout_marginEnd="10sp"
+            android:layout_marginRight="10sp"
+            android:layout_marginBottom="10sp"
+            app:cardCornerRadius="30dp"
+            android:backgroundTint="#E0F2F1">
 
-            >
+            <TextView
 
-        </TextView>
-        <TextView
-
-            android:id="@+id/t4"
-            android:layout_below="@+id/t3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:padding="10dp"
-            android:textColor="@color/black"
-            android:background="#E0F2F1"
-            android:text="
-Narcondam Island"
-            android:textSize="15dp"
-            android:textStyle="bold"
-            >
-
-        </TextView>
-        <LinearLayout
-            android:id="@+id/Linear2"
-            android:layout_below="@+id/t4"
+                android:id="@+id/t3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/t1"
+                android:layout_marginTop="10dp"
+                android:background="#E0F2F1"
+                android:padding="10dp"
+                android:text="       This was a magnitude 6.5 earthquake that took place close to the 103 metre concrete gravity
+dam at Koyna (Berg et al., 1969). Prior to this earthquake, the area used to be considered
+aseismic. However, after the construction of dam and filling up of reservoir in 1962, the seismic
+activity increased significantly. \n\n        The main shock of December 10, 1967 caused widespread
+damage, killing about 200 persons and injuring more than 1500 persons. The maximum shaking
+intensity was assigned as VIII on the MM scale. This earthquake provides one of the important
+instances of the reservoir-induced seismicity"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/c6"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical">
-            <ImageView
-                android:layout_width="220dp"
-                android:layout_height="140dp"
-                android:layout_below="@+id/t2"
-                android:layout_gravity="center"
-                android:src="@drawable/v_narcondam"
-                >
-
-            </ImageView>
-        </LinearLayout>
-        <TextView
-
-            android:id="@+id/t5"
-            android:layout_below="@+id/Linear2"
-            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:padding="10dp"
-            android:textColor="@color/black"
-            android:background="#E0F2F1"
-            android:text=" Narcondam, India's easternmost island, is a small volcanic island located in the northern Andaman Sea.\n         The island's peak rises to 710 m above mean sea level, and it is formed of andesite. \n\n       It is part of the Andaman Islands, the main body of which lie approximately 74 km (46 mi) to the west.\n       The island is part of the Indian union territory of Andaman and Nicobar Islands. The island is small, covering an area of approximately 7.6 square kilometres.\n\n        It was classified as a dormant volcano by the Geological Survey of India.     "
-            android:textSize="15dp"
+            android:layout_below="@+id/c5"
+            android:layout_marginStart="10sp"
+            android:layout_marginLeft="10sp"
+            android:layout_marginTop="10sp"
+            android:layout_marginEnd="10sp"
+            android:layout_marginRight="10sp"
+            android:layout_marginBottom="10sp"
+            app:cardCornerRadius="30dp"
+            android:backgroundTint="#00838f">
+            <TextView
 
-            >
+                android:id="@+id/t4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/t1"
+                android:layout_marginTop="10dp"
+                android:background="#00838f"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:text="2.. BIHAR - NEPAL EARTHQUAKE OF 1988  "
+                android:textColor="@color/white"
 
-        </TextView>
+
+                android:textSize="15dp" />
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/t7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/c6"
+            android:layout_marginStart="10sp"
+            android:layout_marginLeft="10sp" android:layout_marginEnd="10sp"
+            android:layout_marginRight="10sp"
+            android:layout_marginBottom="10sp"
+            app:cardCornerRadius="30dp"
+            android:backgroundTint="#E0F2F1">
+
+            <TextView
+
+                android:id="@+id/t5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/t1"
+                android:layout_marginTop="10dp"
+                android:background="#E0F2F1"
+                android:padding="10dp"
+                android:text="         This magnitude 6.6 earthquake shook northern Bihar and Nepal on August 21, 1988 at 04:39
+hours (e.g., GSI, 1993; Jain, 1992; Jain et al., 1991, Subramanyam, et al. ???, Thakkar et al. ???).\n\n
+About 1004 persons died (282 in India and 722 in Nepal) and more than 16,000 injured;
+casualties were significantly reduced since in the summer time most people sleep outdoors.
+"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/c7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/t7"
+            android:layout_marginStart="10sp"
+            android:layout_marginLeft="10sp"
+            android:layout_marginTop="10sp"
+            android:layout_marginEnd="10sp"
+            android:layout_marginRight="10sp"
+            android:layout_marginBottom="10sp"
+            app:cardCornerRadius="30dp"
+            android:backgroundTint="#00838f">
+            <TextView
+
+                android:id="@+id/t8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/t1"
+                android:layout_marginTop="10dp"
+                android:background="#00838f"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:text="3. UTTARKASHI EARTHQUAKE OF 1991 "
+                android:textColor="@color/white"
+
+
+                android:textSize="15dp" />
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/c9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/c7"
+            android:layout_marginStart="10sp"
+            android:layout_marginLeft="10sp" android:layout_marginEnd="10sp"
+            android:layout_marginRight="10sp"
+            android:layout_marginBottom="10sp"
+            app:cardCornerRadius="30dp"
+            android:backgroundTint="#E0F2F1">
+
+            <TextView
+
+                android:id="@+id/t10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/t1"
+                android:layout_marginTop="10dp"
+                android:background="#E0F2F1"
+                android:padding="10dp"
+                android:text="       An earthquake of magnitude 6.6 shook the districts of Uttarkashi, Tehri, and Chamoli in the
+state of Uttar Pradesh on October 20, 1991 at 2:52 hours (GSI, 1992; Jain et al., 1992). The death
+toll was estimated to be around 768 persons, with about 5,066 injured.\n\n        The area has one of the
+lowest population density in the state, and hence the rather low number of deaths and injuries.
+The maximum intensity of IX on the MM scale was assigned to an area of about 20 square km. "
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+        </androidx.cardview.widget.CardView>
     </RelativeLayout>
 </ScrollView>

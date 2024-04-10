@@ -33,7 +33,8 @@ public class RateUsDialog extends Dialog {
         rateNowBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-               //your code goes here
+
+                //rate us code here
             }
         });
         laterBtn.setOnClickListener(new View.OnClickListener() {

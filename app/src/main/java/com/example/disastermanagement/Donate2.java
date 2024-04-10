@@ -35,8 +35,8 @@ public class Donate2 extends AppCompatActivity {
                     Toast.makeText(Donate2.this, "Please fill out all fields", Toast.LENGTH_SHORT).show();
                 } else {
                     // Launch Paytm using implicit intent
-                    Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=net.one97.paytm"));
-                    startActivity(intent);
+                    Intent Donate2 = new Intent(Donate2.this,Donate3.class);
+                    startActivity(Donate2);
                 }
             }
         });
