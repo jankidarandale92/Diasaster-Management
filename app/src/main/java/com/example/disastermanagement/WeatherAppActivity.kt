@@ -71,7 +71,7 @@ class WeatherAppActivity : AppCompatActivity() {
                     binding.temp.text="$temperature °C"
                     binding.conditions.text=condition
                     binding.maxTemp.text="Max Temp: $maxTemp °C"
-                    binding.minTemp.text="Max Temp: $minTemp °C"
+                    binding.minTemp.text="Min Temp: $minTemp °C"
                     binding.humidity.text="$humidty %"
                     binding.windspeed.text="$windspeed m/s"
                     binding.sunrise.text="${time(sunrise)}"
